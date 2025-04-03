@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <UmbraLogo className="w-6 h-6" />
-            <span className="text-sm font-medium"style={{ color: currentTheme.colors.text }}>
+            <span className="text-sm font-medium" style={{ color: currentTheme.colors.text }}>
               Umbra Theme Family
             </span>
             </div>

@@ -27,7 +27,7 @@ export default function ThemeCard({ themeKey, theme }: ThemeCardProps) {
         <p className="mb-6" style={{ color: theme.colors.secondaryText }}>{theme.description}</p>
         <div className="grid grid-cols-5 gap-2 mb-4">
           {theme.colors.syntax.map((color, index) => (
-            <div key={index} className="h-8 rounded"style={{ backgroundColor: color }} />
+            <div key={index} className="h-8 rounded" style={{ backgroundColor: color }} />
           ))}
         </div>
         <button

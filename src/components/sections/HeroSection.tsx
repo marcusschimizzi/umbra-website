@@ -17,7 +17,7 @@ export default function HeroSection() {
           A Theme Family for Extended Development Sessions
         </h1>
         <p className="text-xl mb-10" style={{ color: currentTheme.colors.secondaryText }}>
-          Three carefully crafted variant designed for visual harmony and optimal readability
+          Three carefully crafted variants designed for visual harmony and optimal readability
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a
